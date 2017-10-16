@@ -1,5 +1,5 @@
 # Gesture Recognition using Networks Library
-The Gesture Recognition dataset was created by <a href="https://github.com/ankitesh97">Ankitesh Gupta</a>. For details on how dataset was created checkout this <a href="https://github.com/ankitesh97/Gesture-Recognition-CNN">repository</a>
+The Gesture Recognition dataset was created by <a href="https://github.com/ankitesh97">Ankitesh Gupta</a>. For details on how dataset was created check this cool <a href="https://github.com/ankitesh97/Gesture-Recognition-CNN">repository</a>
 
 The images were Normalized using the <b>Mean Pixel Value</b> and the <b>Standard Deviation of the Pixel Value</b> before giving it to the model for <b>Training and Testing.</b> The code for normalizing the data is in preprocess.py
 

@@ -1,4 +1,4 @@
-from network import network
+from networks.network import network
 import json
 import numpy as np
 if __name__== "__main__":

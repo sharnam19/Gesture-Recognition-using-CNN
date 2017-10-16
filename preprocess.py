@@ -52,4 +52,4 @@ data = {
     "testY":testY.tolist()
 }
 
-json.dump(data,open("data/data.json","wb"))
+json.dump(data,open("data/data2.json","wb"))
