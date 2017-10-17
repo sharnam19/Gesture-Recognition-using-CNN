@@ -10,11 +10,12 @@ allY=None
 for i in range(len(data_dir)):
     path = "data/"+data_dir[i]+"/"
     data_list = os.listdir(path)
+    data_list.remove('y.txt')
     X = np.empty((len(data_list),1,50,50))
-    y = np.ones(len(data_list))*i 
+    y = np.ones(len(data_list))*i
     for num in range(len(data_list)):
         X[num,0,:,:] = plt.imread(path+data_list[num])
-    
+
     if allX is None:
         allX=X
         allY=y
