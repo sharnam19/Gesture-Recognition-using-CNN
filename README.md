@@ -68,3 +68,13 @@ The Model was trained using Mini-Batch Gradient Descent with Adam Optimizer. \
 The Mini-Batch was sampled at random during training.
 ### Loss-Iteration Curve
 ![Loss-Iteration Curve for 100 Epochs](/Loss_Curve.png)
+
+### Using The Trained Model
+1) Download the <a href="https://drive.google.com/open?id=0B6OWaNVUCQvaZF9rV3pOWTFnaEU">Model</a>
+2) Extract it in models folder
+3) Load the Model using the command below
+<pre>
+from networks.network import network
+model = network.load("model.json")
+prediction = model.predict(X)
+</pre>
